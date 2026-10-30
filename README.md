@@ -54,7 +54,7 @@ where:
 
 The function returns:
 
-- `score`: CRC similarity score.
+- `CRC_similarity_score`: CRC similarity score.
 - `n_available`: Number of available gene pairs.
 - `n_matched`: Number of matched gene pairs.
 - `qc_pass`: Quality-control status.
