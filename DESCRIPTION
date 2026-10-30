@@ -1,0 +1,17 @@
+Package: ssCRCsim
+Title: Single-Sample Colorectal Cancer REO Scoring and CMS Prediction
+Version: 0.1.0
+Authors@R: person("Zy", "H", email = "2025020446@hrbmu.edu.cn", role = c("aut", "cre"))
+Description: Calculates colorectal cancer-specific transcriptional similarity
+    scores based on relative expression orderings (REOs) and predicts
+    consensus molecular subtypes (CMS1-CMS4) using a fixed, balanced
+    CMS-specific REO rule panel constructed at a 73 percent consistency
+    threshold. Both functions operate on individual expression profiles
+    without requiring a patient reference expression matrix at prediction time.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.1
